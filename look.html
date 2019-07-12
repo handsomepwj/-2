@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频管理</title>
+
+    <style>
+        /*.black_overlay{*/
+            /*display: none;*/
+            /*position: absolute;*/
+            /*top: 0%;*/
+            /*left: 0%;*/
+            /*width: 100%;*/
+            /*height: 100%;*/
+            /*background-color: black;*/
+            /*z-index:1001;*/
+            /*-moz-opacity: 0.8;*/
+            /*opacity:.80;*/
+            /*filter: alpha(opacity=88);*/
+        /*}*/
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 12%;
+            left: 13%;
+            width: 75%;
+            height: 75%;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+        }
+    </style>
+</head>
+<tbody id="tbody">
+<body>
+<div class="video">
+<form action="doAction.php" method="post"  enctype="multipart/form-data">
+    视频链接：<input type="text" name="vurl">
+    图片链接：<input type="text" name="purl">
+    收费：<input type="radio" name="charge" value="1">
+    不收费：<input type="radio" name="charge" value="0">
+    收费金额：<input type="text" name="price">
+    <input type="submit" name="confirm">
+    <p id="btn"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">选择图片</a></p>
+    <div id="light" class="white_content">
+            请选择您要上传的文件：
+            <input type="file" name="myfile">
+            <input type="submit" value="上传文件">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+            $('#btn').click(function () {
+                console.log(111)
+                $.ajax({
+                    type: 'POST',
+                    url: 'http://192.168.0.1/PHP/wamp64/www/ewei_shopv2/doAction.php',
+                    async: false,
+                    dataType:'json',
+                    success: function (data) {
+                        console.log(data)
+                        console.log(22222)
+                        var DomStr = '';
+                        $.each(data,function(index,value){
+                            DomStr+='<tr><td style="text-align:center;vertical-align:middle;">'+value['videourl']+'</td>';
+                            DomStr+='<td class="order_no" style="text-align:center;vertical-align: middle;">'+value['name']+'</td>';
+                        })
+                        $("#tbody").html(DomStr);
+                    },
+                })
+            })
+
+        </script>
+        <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">点这里关闭本窗口</a></div>
+    <div id="fade" class="black_overlay"></div>
+</form>
+    <div class="panel-heading">会员列表</div>
+    <div class="panel-body">
+        <div class="table-responsive panel-body">
+            <input type="checkbox" id="choose" value="1">
+            <table class="table table-hover" style="min-width: 300px;">
+                <thead class="navbar-inner">
+                <tr>
+                    <th style="width:120px;">用户昵称</th>
+                    <th style="width:120px;">头像</th>
+                    <th style="width:120px;">会员余额</th>
+                    <th style="width:120px;">手机号码</th>
+                    <th style="width:120px;">房间号</th>
+                    <th style="width:120px;">楼栋</th>
+                    <th style="width:120px;">是否黑名单</th>
+                    <th style="width:200px;">地址</th>
+                    <th style="width:200px;" class="text-right">操作</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

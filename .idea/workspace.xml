@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e522c222-daae-4156-94ff-55704df4df62" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://E:/xftp6/Xftp/Temporary/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1561366488244" expanded="true" signature="8780:8789" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="8933:8991" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="9089:9149" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="9454:9482" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="10535:10544" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="10694:10752" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="10853:10913" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="11231:11259" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="12329:12338" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="12484:12542" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="12640:12700" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="13008:13036" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="14048:14057" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="14205:14263" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="14363:14423" ph="..." />
+                <marker date="1561366488244" expanded="true" signature="14736:14764" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search1.html" pinned="false" current-in-tab="true">
+        <entry file="file://E:/xftp6/Xftp/Temporary/search1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <marker date="1561368020786" expanded="true" signature="8785:8794" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="8938:8996" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="9094:9154" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="9459:9487" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="10540:10549" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="10699:10757" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="10858:10918" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="11236:11264" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="12334:12343" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="12489:12547" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="12645:12705" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="13013:13041" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="14053:14062" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="14210:14268" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="14368:14428" ph="..." />
+                <marker date="1561368020786" expanded="true" signature="14741:14769" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search1.php" pinned="false" current-in-tab="false">
+        <entry file="file://E:/xftp6/Xftp/Temporary/search1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding>
+                <marker date="1561367799043" expanded="true" signature="821:926" ph="SELECT name ${tablename($this -&gt; table_category)}" />
+                <marker date="1561367799043" expanded="true" signature="1521:1726" ph="SELECT a.* F... ${tablename($this -&gt; table_lesson_parent)}" />
+                <marker date="1561367799043" expanded="true" signature="1821:1911" ph="SELECT COUNT... ${tablename($this -&gt; table_lesson_son)}" />
+                <marker date="1561367799043" expanded="true" signature="2389:2534" ph="SELECT COUNT... ${tablename($this-&gt;table_lesson_parent)}" />
+                <marker date="1561367799043" expanded="true" signature="2820:2974" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+                <marker date="1561367799043" expanded="true" signature="3075:3233" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+                <marker date="1561367799043" expanded="true" signature="3384:3542" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://E:/xftp6/Xftp/Temporary/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1561366532490" expanded="true" signature="821:926" ph="SELECT name ${tablename($this -&gt; table_category)}" />
+                <marker date="1561366532490" expanded="true" signature="1521:1726" ph="SELECT a.* F... ${tablename($this -&gt; table_lesson_parent)}" />
+                <marker date="1561366532490" expanded="true" signature="1821:1911" ph="SELECT COUNT... ${tablename($this -&gt; table_lesson_son)}" />
+                <marker date="1561366532490" expanded="true" signature="2389:2534" ph="SELECT COUNT... ${tablename($this-&gt;table_lesson_parent)}" />
+                <marker date="1561366532490" expanded="true" signature="2820:2974" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+                <marker date="1561366532490" expanded="true" signature="3075:3233" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+                <marker date="1561366532490" expanded="true" signature="3384:3542" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rf</find>
+      <find>pull-left</find>
+      <find>sign</find>
+      <find>page-toolbar</find>
+      <find>col</find>
+      <find>else if \(\$controller \=\= \'sign\'\) \n\	\	\{\n\	\	\	include \$this\-\&gt;template\(\'sign\/_menu\'\)\;\n\	\	\}</find>
+      <find>id=</find>
+      <find>footerMenus</find>
+      <find>au</find>
+      <find>小程序</find>
+      <find>当前位置</find>
+      <find>item</find>
+      <find>/*position: absolute;*/</find>
+      <find>insert into</find>
+      <find>连续签到即可领取</find>
+      <find>confirm</find>
+      <find>红包兑换区</find>
+      <find>foot</find>
+      <find>请选择链接</find>
+      <find>请选择</find>
+      <find>选择图片</find>
+      <find>页面名称</find>
+      <find>col-sm-2</find>
+      <find>btn_</find>
+      <find>btn</find>
+      <find>小程序设置</find>
+      <find>底部导航</find>
+      <find>发布与审核</find>
+      <find>setting</find>
+      <find>砍价</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\PHP\wamp64\www\ewei_shopv2\template\web_v3</dir>
+      <dir>E:\PHP\wamp64\www\ewei_shopv2\template</dir>
+      <dir>E:\PHP\wamp64\www\ewei_shopv2</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/look.html" />
+        <option value="$PROJECT_DIR$/doAction.php" />
+        <option value="E:/xftp6/Xftp/Temporary/doAction.php" />
+        <option value="E:/xftp6/Xftp/Temporary/doAction [3].php" />
+        <option value="E:/xftp6/Xftp/Temporary/doAction [2].php" />
+        <option value="E:/xftp6/Xftp/Temporary/show_video.php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [6].html" />
+        <option value="E:/xftp6/Xftp/Temporary/release [7].html" />
+        <option value="E:/xftp6/Xftp/Temporary/release.html" />
+        <option value="E:/xftp6/Xftp/Temporary/release [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/release [3].html" />
+        <option value="E:/xftp6/Xftp/Temporary/add_video.php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [5].html" />
+        <option value="E:/xftp6/Xftp/Temporary/mylesson.html" />
+        <option value="E:/xftp6/Xftp/Temporary/mylesson [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/mylesson [3].html" />
+        <option value="E:/xftp6/Xftp/Temporary/search [6].html" />
+        <option value="E:/xftp6/Xftp/Temporary/search [7].html" />
+        <option value="E:/xftp6/Xftp/Temporary/index.html" />
+        <option value="E:/xftp6/Xftp/Temporary/index [4].html" />
+        <option value="E:/xftp6/Xftp/Temporary/_template_menu.html" />
+        <option value="E:/xftp6/Xftp/Temporary/tpl_editor.html" />
+        <option value="E:/xftp6/Xftp/Temporary/_template_edit [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/tpl_editor [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/_template_edit [3].html" />
+        <option value="E:/xftp6/Xftp/Temporary/tpl_basic.html" />
+        <option value="E:/xftp6/Xftp/Temporary/lesson.html" />
+        <option value="E:/xftp6/Xftp/Temporary/lesson [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/lesson [3].html" />
+        <option value="E:/xftp6/Xftp/Temporary/index [2].html" />
+        <option value="E:/xftp6/Xftp/Temporary/tabbar.php" />
+        <option value="E:/xftp6/Xftp/Temporary/goods.php" />
+        <option value="E:/xftp6/Xftp/Temporary/activity.php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [3].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [4].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [5].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [6].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [7].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [8].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [9].php" />
+        <option value="E:/xftp6/Xftp/Temporary/release [4].html" />
+        <option value="E:/xftp6/Xftp/Temporary/release [10].php" />
+        <option value="E:/xftp6/Xftp/Temporary/route [2].php" />
+        <option value="E:/xftp6/Xftp/Temporary/activity [2].php" />
+        <option value="E:/xftp6/Xftp/Temporary/activity.html" />
+        <option value="E:/xftp6/Xftp/Temporary/vote.php" />
+        <option value="E:/xftp6/Xftp/Temporary/config.php" />
+        <option value="E:/xftp6/Xftp/Temporary/jdone [4].php" />
+        <option value="E:/xftp6/Xftp/Temporary/show_jdone.php" />
+        <option value="E:/xftp6/Xftp/Temporary/search1.php" />
+        <option value="E:/xftp6/Xftp/Temporary/search1.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="907" />
+    <option name="width" value="959" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ewei_shopv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewei_shopv2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ewei_shopv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ewei_shopv2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e522c222-daae-4156-94ff-55704df4df62" name="Default" comment="" />
+      <created>1556359198457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556359198457</updated>
+      <workItem from="1556359199825" duration="6753000" />
+      <workItem from="1556505144318" duration="8000" />
+      <workItem from="1556505261138" duration="504000" />
+      <workItem from="1557128762378" duration="3548000" />
+      <workItem from="1557214329033" duration="5562000" />
+      <workItem from="1557285711955" duration="2531000" />
+      <workItem from="1557319880884" duration="299000" />
+      <workItem from="1557367789971" duration="13089000" />
+      <workItem from="1557451894716" duration="6125000" />
+      <workItem from="1557470895026" duration="4054000" />
+      <workItem from="1557711570532" duration="30859000" />
+      <workItem from="1557797799904" duration="1354000" />
+      <workItem from="1557828440298" duration="621000" />
+      <workItem from="1557886480172" duration="20177000" />
+      <workItem from="1558582039404" duration="127000" />
+      <workItem from="1558938235675" duration="12476000" />
+      <workItem from="1559106177926" duration="4792000" />
+      <workItem from="1559121891784" duration="3791000" />
+      <workItem from="1559200347716" duration="15000" />
+      <workItem from="1559269013255" duration="15000" />
+      <workItem from="1559269749918" duration="13055000" />
+      <workItem from="1561351344236" duration="4211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133966000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://E:/xftp6/Xftp/Temporary/release [5].php</url>
+          <line>300</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/xftp6/Xftp/Temporary/tpl_basic.html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/lesson.html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/lesson [2].html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/lesson [3].html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/index.html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release1.html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/index [2].html" />
+    <entry file="file://$PROJECT_DIR$/core/processor/verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/poster/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/com/perm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/model/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="151" column="73" lean-forward="true" selection-start-line="151" selection-start-column="73" selection-end-line="151" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/task/goods/presell.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/task/goods/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/app/core/web/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5865">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1556352436842" expanded="true" signature="3304:3407" ph="SELECT id, `... ${tablename('ewei_shop_wxapp_tmessage')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/web/system/plugin/release1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/release.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release1.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [2].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/page.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/goods.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/startadv.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/tabbar.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [3].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [4].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [5].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [6].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [7].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [8].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [9].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [10].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/route.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/route [2].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/ccrelease.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/activity.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [4].html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [5].html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/activity.html" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/activity [2].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/vote.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/release [11].php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/config.php" />
+    <entry file="file://E:/xftp6/Xftp/Temporary/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8112">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/bargain/core/mobile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16246">
+          <caret line="708" column="20" lean-forward="false" selection-start-line="708" selection-start-column="20" selection-end-line="708" selection-end-column="20" />
+          <folding>
+            <marker date="1556352255537" expanded="true" signature="424:498" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_account&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="4468:4611" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="4762:4833" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="4906:4988" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="6843:6986" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="7137:7225" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="7298:7396" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="9223:9311" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="9447:9547" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="13334:13407" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="13455:13543" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="13611:13723" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="16266:16380" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_record&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="16439:16648" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="16786:16876" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="20185:20258" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="20831:20911" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_goods&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="23016:23120" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_record&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="23217:23302" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_record&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="23654:23727" ph="SELECT * FRO... ${tablename(&quot;ewei_shop_bargain_actor&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="29457:29567" ph="select * fro... ${tablename(&quot;ewei_shop_member_message_template&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="31047:31164" ph="select templ... ${tablename(&quot;ewei_shop_member_message_template_type&quot;)}" />
+            <marker date="1556352255537" expanded="true" signature="31541:31658" ph="select templ... ${tablename(&quot;ewei_shop_member_message_template_type&quot;)}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/jdone [4].php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/show_jdone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1561366488244" expanded="true" signature="8780:8789" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="8933:8991" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="9089:9149" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="9454:9482" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="10535:10544" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="10694:10752" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="10853:10913" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="11231:11259" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="12329:12338" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="12484:12542" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="12640:12700" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="13008:13036" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="14048:14057" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="14205:14263" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="14363:14423" ph="..." />
+            <marker date="1561366488244" expanded="true" signature="14736:14764" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1561366532490" expanded="true" signature="821:926" ph="SELECT name ${tablename($this -&gt; table_category)}" />
+            <marker date="1561366532490" expanded="true" signature="1521:1726" ph="SELECT a.* F... ${tablename($this -&gt; table_lesson_parent)}" />
+            <marker date="1561366532490" expanded="true" signature="1821:1911" ph="SELECT COUNT... ${tablename($this -&gt; table_lesson_son)}" />
+            <marker date="1561366532490" expanded="true" signature="2389:2534" ph="SELECT COUNT... ${tablename($this-&gt;table_lesson_parent)}" />
+            <marker date="1561366532490" expanded="true" signature="2820:2974" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+            <marker date="1561366532490" expanded="true" signature="3075:3233" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+            <marker date="1561366532490" expanded="true" signature="3384:3542" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/search1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <marker date="1561367799043" expanded="true" signature="821:926" ph="SELECT name ${tablename($this -&gt; table_category)}" />
+            <marker date="1561367799043" expanded="true" signature="1521:1726" ph="SELECT a.* F... ${tablename($this -&gt; table_lesson_parent)}" />
+            <marker date="1561367799043" expanded="true" signature="1821:1911" ph="SELECT COUNT... ${tablename($this -&gt; table_lesson_son)}" />
+            <marker date="1561367799043" expanded="true" signature="2389:2534" ph="SELECT COUNT... ${tablename($this-&gt;table_lesson_parent)}" />
+            <marker date="1561367799043" expanded="true" signature="2820:2974" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+            <marker date="1561367799043" expanded="true" signature="3075:3233" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+            <marker date="1561367799043" expanded="true" signature="3384:3542" ph="SELECT * FRO... ${tablename($this -&gt; table_category)}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/xftp6/Xftp/Temporary/search1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <marker date="1561368020786" expanded="true" signature="8785:8794" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="8938:8996" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="9094:9154" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="9459:9487" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="10540:10549" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="10699:10757" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="10858:10918" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="11236:11264" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="12334:12343" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="12489:12547" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="12645:12705" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="13013:13041" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="14053:14062" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="14210:14268" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="14368:14428" ph="..." />
+            <marker date="1561368020786" expanded="true" signature="14741:14769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

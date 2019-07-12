@@ -1,0 +1,284 @@
+﻿{template '_header'}
+{template 'commission/common'}
+
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/dividend/template/mobile/default/static/css/common.css">
+<div class="fui-page fui-page-current page-commission-down">
+    <div class="fui-header">
+        <div class="fui-header-left">
+            <a class="back"></a>
+        </div>
+        <div class="title">我的店长团队</div>
+    </div>
+    <div class="fui-content navbar footbar">
+        
+        <div class="fui-tab fui-tab-warning" id="tab" style="height: 13%; ">
+	
+            <a class="active  btn1" href="javascript:void(0)" data-tab='level1' >一级店长(<? echo $count['count(id)'] ?>)<br><? echo $dividend_ok1 + $dividend_oka + 0?><? echo $this->set['texts']['yuan'] ?></a>
+            <a href="javascript:void(0)" data-tab='level2' class='btn2'>二级店长(<? echo $count1['count(id)'] ?>)<br><? echo $dividend_ok2 + $dividend_okb + 0 ?><? echo $this->set['texts']['yuan'] ?></a>
+            <a href="javascript:void(0)" data-tab='level3' class="btn3">三级店长(<? echo $count2['count(id)'] ?>)<br><? echo $dividend_ok3 + $dividend_okc + 0 ?><? echo $this->set['texts']['yuan'] ?></a>
+			<!-- <a href="#" class="btn4">普通会员<br><? echo $dividend_ok + 0 ?><? echo $this->set['texts']['yuan'] ?></a> -->
+			<!-- <a  href="javascript:void(0)" data-tab='level3' >普通会员11</a> -->
+        </div>
+        
+
+	
+
+        <div class="fui-list-group" id="container"></div>
+        <div class='infinite-loading'><span class='fui-preloader'></span><span class='text'> 正在加载...</span></div>
+
+		<div class='content-empty' style='display:none;'>
+			
+			<img src="{EWEI_SHOPV2_STATIC}images/nomeb.png" style="width: 6rem;margin-bottom: .5rem;"><br/><p style="color: #999;font-size: .75rem">暂时没有任何数据</p>
+		</div>
+
+    </div>
+	<div class="share-footbar">
+
+        <!--<a  href="{php echo mobileUrl('dividend')}"+  class='item external certer'>-->
+	 <a  href="{php echo mobileUrl('dividend')}"  class='item external    sup'>
+
+            <i class="icon icon-dividendhome"></i>
+
+            <span class='text'>{php echo $this->set['texts']['dividend']}中心</span>
+	
+
+        </a>
+
+        <a href="{php echo mobileUrl('dividend/withdraw')}" class='item '>
+
+            <i class="icon icon-fenxiaoyongjin1"></i>
+
+            <span class='text'>{php echo $this->set['texts']['dividend']}佣金</span>
+
+        </a>
+
+        <a href="{php echo mobileUrl('dividend/order')}" class='item '>
+
+            <i class="icon icon-fenxiaodingdan1"></i>
+
+            <span class='text'>{php echo $this->set['texts']['dividend']}订单</span>
+
+        </a>
+
+        <a href="#" class='item active'>
+
+            <i class="icon icon-wodetuandui2"></i>
+
+            <span class='text'>我的团队</span>
+	
+        </a>
+
+    </div>
+
+	
+
+<script id='tpl_commission_down_list' type='text/html'>
+	
+		<%each list as user%>
+		      <div>
+				
+		          <div class="fui-list" style="height: 3.5rem">
+			<div class="fui-list-media">
+				<%if user.avatar%>
+				<img data-lazy="<%user.avatar%>" class="round" style="width:2rem;height:2rem">
+				<%else%>
+				<i class="icon icon-my2"></i>
+				<%/if%>
+			</div>
+			<div class="fui-list-inner">
+				<div class="row">
+				      <div class="row-text" >
+					  
+				 <%if user.nickname%><%user.nickname%><%else%>未获取<%/if%>
+				      
+				      </div>
+				</div>
+				<div class="subtitle">
+
+					注册时间:  <%user.createtime%>
+					<%if user.headsstatus==1%>
+					<div style="color:red;font-weight:bold">店长</div>
+					<%else%>
+					<div>普通会员</div>
+					<%/if%>
+
+					<!-- <span style="display:none"><%user.headsstatus%></span> -->
+				</div>
+			</div>
+			<div class="row-remark">
+				<p><%user.moneycount%>{php echo $this->set['texts']['yuan']}</p>
+				<p><%user.ordercount%>个订单</p>
+			</div>
+			 </div>
+			
+		     </div>
+
+		<%/each%>	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+	
+	var btn1=document.querySelector(".btn1")
+	var btn2=document.querySelector(".btn2")
+	var btn3=document.querySelector(".btn3")
+	var btn4=document.querySelector(".btn4")
+
+
+	//首次加载页面显示
+
+
+// var timer=setInterval(function(){
+// 		var spas=document.getElementsByClassName("fui-list")
+// 		var t=0;
+		
+// 		  var arr1=[];
+// 		  for(var i=0;i<spas.length;i++){
+// 		      var spa=spas[i]
+// 		      arr1.push(spa.children[1].children[1].children[0].innerHTML)
+// 			console.log(arr1)
+// 		   }
+	
+// 		   for(var j=0;j<arr1.length;j++){
+// 		      if(arr1[j]==0){
+// 		         spas[j].style.display="none"
+// 		       }else{
+// 			var ys=(spas[j].children[2].children[0].innerHTML.split(".")[0].split(","))
+			
+// 			for(var n=0;n<ys.length;n++){
+// 			    var y=ys[0]+ys[1]
+// 			}
+// 				console.log(y)
+// 			 t+=parseFloat((y*0.052).toFixed(2))
+			
+// 		       }
+// 		    }
+// 			if(t>0){document.querySelector(".sup").href=document.querySelector(".sup").href+"#"+t}else{document.querySelector(".sup").href=document.querySelector(".sup").href+"#"+0}
+			
+// 		 setInterval(function(){
+// 	      	     clearInterval(timer)
+// 		     timer=null
+// 	  	 },100)
+// 	},1000)
+
+// var timer=setInterval(function(){
+// 		var spas=document.getElementsByClassName("fui-list")
+// 		var t=0;
+		
+// 		  var arr1=[];
+// 		  for(var i=0;i<spas.length;i++){
+// 		      var spa=spas[i]
+// 		      arr1.push(spa.children[1].children[1].children[0].innerHTML)
+// 		   }
+	
+// 		   for(var j=0;j<arr1.length;j++){
+// 		      if(arr1[j]==0){
+// 		         spas[j].style.display="none"
+// 		       }else{
+// 			var ys=(spas[j].children[2].children[0].innerHTML.split(".")[0].split(","))
+
+// 			for(var n=0;n<ys.length;n++){
+// 			    var y=ys[0]+ys[1]
+// 			}
+// 				//console.log(y)
+// 			 t+=parseFloat((y*0.052).toFixed(2))
+			
+// 		       }
+// 		    }
+// 			if(t>0){document.querySelector(".sup").href=document.querySelector(".sup").href+"#"+t}else{document.querySelector(".sup").href=document.querySelector(".sup").href+"#"+0}
+			
+// 		 setInterval(function(){
+// 	      	     clearInterval(timer)
+// 		     timer=null
+// 	  	 },100)
+// 	},1000)
+
+// function msg(){
+// 	var timer=setInterval(function(){
+// 		var spas=document.getElementsByClassName("fui-list")
+// 		  var arr1=[];
+// 		  for(var i=0;i<spas.length;i++){
+// 		      var spa=spas[i]
+		    
+// 		      arr1.push(spa.children[1].children[1].children[0].innerHTML)
+// 		   }
+		 
+// 		   for(var j=0;j<arr1.length;j++){
+// 		      if(arr1[j]==0){
+// 		         spas[j].style.display="none"
+			
+// 		       }
+// 		    }
+// 		 setInterval(function(){
+// 	      	     clearInterval(timer)
+// 		     timer=null
+// 	  	 },100)
+		
+// 	},500)	
+// }
+// msg()
+
+
+// 	//点击一级店长
+// 		btn1.onclick=function(){
+// 		     msg()
+// 		}  
+
+
+
+// 	//点击二级店长
+// 		btn2.onclick=function(){
+// 		msg()
+// 		}
+		
+
+
+// 	//点击三级店长
+// 		btn3.onclick=function(){
+// 		     msg()
+// 		}
+		
+
+// 	//点击普通会员
+// 		btn4.onclick=function(){
+// 		   var spas=document.getElementsByClassName("fui-list")
+// 			//console.log(spas)
+	
+// 		  var arr1=[];
+// 		  for(var i=0;i<spas.length;i++){
+// 		      var spa=spas[i]
+// 			//console.log(spa)
+// 		      arr1.push(spa.children[1].children[1].children[0].innerHTML)
+// 		   }
+		
+// 		   for(var j=0;j<arr1.length;j++){
+// 		      if(arr1[j]==1){
+// 		         spas[j].style.display="none"
+// 		       }
+// 		    if(arr1[j]==0){
+// 		         spas[j].style.display="flex"
+// 		       }
+// 		    }
+// 		}
+//    </script>
+	
+	
+	<script language='javascript'>
+		require(['../addons/ewei_shopv2/plugin/commission/static/js/down.js'], function (modal) {
+			modal.init({fromDetail: false});
+		});
+
+		 
+	</script>
+</div>
+
+
